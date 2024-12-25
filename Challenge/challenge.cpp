@@ -136,8 +136,5 @@ int main() {
 
 	cout << endl;
 
-
-
-	//a asdfasdfsadfdsafdsafdsafsdafsadf
 	return 0;
 }
