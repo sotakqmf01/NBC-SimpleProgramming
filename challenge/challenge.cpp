@@ -103,6 +103,8 @@ void QuickSort(vector<int>& v, int start, int end) {
 
 int main() {
 	int n = 0;
+	int a;
+	a = 10;
 	int select = 0;
 
 	cout << "입력할 점수 개수 : ";
