@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NBC_Cpp", "NBC_Cpp\NBC_Cpp.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Essential", "Essential\Essential.vcxproj", "{D66DA601-A8A6-4B50-91BB-865A606B9C1F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "challenge", "challenge\challenge.vcxproj", "{69D123EC-EE8E-4004-AA2D-DEBDE5AED381}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Challenge", "Challenge\Challenge.vcxproj", "{69D123EC-EE8E-4004-AA2D-DEBDE5AED381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
