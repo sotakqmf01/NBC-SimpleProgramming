@@ -70,7 +70,7 @@ int main() {
 	return 0;
 }
 
-
+//--------------------------------------------------------------
 //cout << endl;
 //int alist[5] = { 1,2,3,4,5 };
 //
@@ -90,16 +90,34 @@ int main() {
 
 //free(dalist);
 
-//
+//--------------------------------------------------------------
 //vector<int> v;
-//vector<int>::iterator it = v.begin();	// 처음에 초기화를 안해서 벡터에 요소가 하나도 없음 => it가 가리킬게 없음 => ??? 값을 가지는게 당연
-//
-//v.resize(5);
-//
+//vector<int>::iterator it = v.begin();	// 처음에 초기화를 안해서 벡터에 요소가 하나도 없음 => it가 가리킬게 없음 => ??? 값을 가지는게 당연 => +/-을 해줄 수가 없음
+
 //v[0] = 1;
 //v[1] = 3;
 //v[2] = 5;
 //v[3] = 7;
 //v[4] = 9;
-//
+
 //it = v.begin();			// 요소가 추가되고 나면 값이 생김
+//
+//v.insert(v.end(), 10);
+//v.insert(v.end(), 11);
+//v.insert(v.end(), 12);
+//v.insert(v.end(), 13);
+//v.insert(v.end(), 14);
+//v.insert(v.end(), 15);
+
+//it = v.insert(it, 10);
+//it = v.insert(it, 11);
+//it = v.insert(it, 12);
+//it = v.insert(it, 13);
+//it = v.insert(it, 14);
+//it = v.insert(it, 15);
+
+//it = v.insert(it, 0);
+
+//for (int i = 1; i < 10; i++) {
+//	it = v.insert(it+1, i);
+//}
